@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex Responsiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Barra de pesquisa -->
+    <header>
+      <input type="text" id="search" placeholder="Digite o nome do Pokémon">
+      <button id="searchBtn">Pesquisar</button>
+    </header>
+
+    <!-- Lista de Pokémon -->
+    <main id="pokemon-list"></main>
+
+    <!-- Paginação -->
+    <footer>
+      <button id="prev">← Anterior</button>
+      <span id="page-info"></span>
+      <button id="next">Próximo →</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
